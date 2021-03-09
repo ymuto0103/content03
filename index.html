@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- slick -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="slick/slick.min.js"></script>
+
+    <!-- ドロワー -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;900&display=swap" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Start Camp</title>
+</head>
+<body>
+    <!-- ############ ヘッダー ########### -->
+    <header>
+        <div class="header-all">
+
+        
+        <!-- 左側 -->
+        <div class="header-left">
+            <!-- 写真 -->
+            <div class="header-left-img">
+                <img src="images/cap1.jpg" alt="header-left">
+            </div>
+
+            <!-- タイトル（背景の上） -->
+            <div class="header-title">
+                <h1>Start<br>Camp</h1>
+            </div> 
+        </div>
+
+
+
+        <!-- 中央 -->
+        <div class="header-center">
+            <!-- ロゴ -->
+            <div class="header-logo">
+                <img src="images/camp-logo.png" alt="logo">
+            </div>
+
+            <!-- メニュー（スマホ用） -->
+            <div id="navArea">
+                <nav class="drawer-nav">
+                    <div class="drawer-inner">
+                        <ul>
+                            <li><img src="images/menu.png" alt="menu-img"></li>
+                            <li><a href="#voice">CAMPERの声</a></li>
+                            <li><a href="#spot">CAMP SPOT</a></li>
+                            <li><a href="#baggage">CAMPに必要な物</a></li>
+                        </ul>
+                    </div>
+                </nav>
+    
+                <div class="toggle_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+            </div>
+
+            <!-- メニュー（PC用） -->
+            <nav class="drawer-nav-pc">
+                <ul class="pc-menu">
+                    <li><img src="images/menu.png" alt="menu-img"></li>
+                    <li><a href="#voice">CAMPERの声</a></li>
+                    <li><a href="#spot">CAMP SPOT</a></li>
+                    <li><a href="#baggage">CAMPに必要な物</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- 右側 -->
+        <div class="header-right">
+            <!-- 写真 -->
+            <div class="header-right-img">
+                <img class="bottom" src="images/header-right1.png" alt="header-right1">
+                <img class="top" src="images/header-right2.png" alt="header-right2">
+            </div>
+        </div>
+
+
+        </div>
+
+
+
+    </header>
+
+
+
+
+    <!-- ############ 本文 ########### -->
+    <main>
+        <!-- ########キャンプとは######## -->
+        <div class="camp-content">
+
+            <!-- タイトル -->
+            <div class="content-title">
+                <h2>キャンプとは</h2>
+            </div>
+
+            <!-- 本文 -->
+            <div class="content-wrap">
+
+                <!-- 動画 -->
+                <div class="content-right">
+                    <!-- <video width="200px" height="150px" src="video.mp4"></video> -->
+                    <img src="images/cap5.jpg" alt="movie">
+                </div>
+
+                <!-- 説明文 -->
+                <div class="content-left">
+                    <h3>CAMPとは</h3>
+                    <p>aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    
+                    <!-- More -->
+                    <div class="detail">
+                        <a href="#">More...</a>
+                    </div>                
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ########キャンパーの声######## -->
+        <div id="voice" class="voice-content">
+
+            <!-- タイトル -->
+            <div class="content-title">
+                <h2>キャンパーの声</h2>
+            </div>
+
+            <!-- スライダー -->
+            <div id="slider" class="slider">
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap1.jpg" alt="voice1">
+                        <h4 class="caption-title">CAMPERの声1</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap2.jpg" alt="voice2">
+                        <h4 class="caption-title">CAMPERの声2</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap3.jpg" alt="voice3">
+                        <h4 class="caption-title">CAMPERの声3</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap4.jpg" alt="voice4">
+                        <h4 class="caption-title">CAMPERの声4</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap1.jpg" alt="voice5">
+                        <h4 class="caption-title">CAMPERの声5</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap2.jpg" alt="voice6">
+                        <h4 class="caption-title">CAMPERの声6</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap3.jpg" alt="voice7">
+                        <h4 class="caption-title">CAMPERの声7</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+                <div class="slider-content">
+                    <a href="#">
+                        <img src="images/cap4.jpg" alt="voice8">
+                        <h4 class="caption-title">CAMPERの声8</h4>
+                        <p class="caption">aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- More -->
+            <div class="detail">
+                <a href="#">More...</a>
+            </div>
+        </div>
+
+        <!-- ########キャンプスポット######## -->
+        <div id="spot" class="spot-content">
+
+            <!-- タイトル -->
+            <div class="content-title">
+                <h2>キャンプスポット</h2>
+            </div>
+
+            <!-- スライダー -->
+            <div class="slider2">
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap1.jpg" alt="spot1">
+                        <h4 class="caption2-title">北海道</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap2.jpg" alt="spot2">
+                        <h4 class="caption2-title">東北</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap3.jpg" alt="spot3">
+                        <h4 class="caption2-title">関東</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap4.jpg" alt="spot4">
+                        <h4 class="caption2-title">中部</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap5.jpg" alt="spot1">
+                        <h4 class="caption2-title">近畿</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap6.jpg" alt="spot2">
+                        <h4 class="caption2-title">中国</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap7.jpg" alt="spot3">
+                        <h4 class="caption2-title">四国</h4>                        
+                    </a>
+                </div>
+                <div class="slider2-content">
+                    <a href="#">
+                        <img src="images/cap1.jpg" alt="spot4">
+                        <h4 class="caption2-title">九州</h4>                        
+                    </a>
+                </div>
+            </div>
+
+            <!-- More -->
+            <div class="detail">
+                <a href="#">More...</a>
+            </div>
+
+        </div>
+
+        <!-- ########キャンプに必要な物######## -->
+        <div id="baggage" class="baggage-content">
+
+            <!-- タイトル -->
+            <div class="content-title">
+                <h2>キャンプに必要な物</h2>
+            </div>            
+
+
+            <!-- 本文 -->
+            <div class="content-wrap">
+
+                <!-- スライダー -->
+                <div class="content-right">
+                    <div class="slider3">
+                        <div class="slider3-content">
+                            <a href="#">
+                                <img src="images/cap5.jpg" alt="baggage1">
+                                <p class="caption3">荷物1</p>                                
+                            </a>
+                        </div>
+                        <div class="slider3-content">
+                            <a href="#">
+                                <img src="images/cap6.jpg" alt="baggage2">
+                                <p class="caption3">荷物2</p>                                
+                            </a>
+                        </div>
+                        <div class="slider3-content">
+                            <a href="#">
+                                <img src="images/cap7.jpg" alt="baggage3">
+                                <p class="caption3">荷物3</p>                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 説明文 -->
+                <div class="content-left">
+                    <h3>CAMPに必要な物</h3>
+                    <p>aaaaaaaaaaaaaaaaaaaaaaaaa <br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>  
+                
+                    <!-- More -->
+                    <div class="detail">
+                        <a href="#">More...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <!-- ############ フッター ########### -->
+    <footer>
+        <div class="footer-content">
+
+            <!-- メニュー -->
+            <div class="footer-menu">
+                <div class="voice-menu">
+                    <a href="#voice"><h4>CAMPERの声</h4></a>
+                    <ul>
+                        <li><a href="#">CAMPERの声1</a></li>
+                        <li><a href="#">CAMPERの声2</a></li>
+                        <li><a href="#">CAMPERの声3</a></li>
+                        <li><a href="#">CAMPERの声4</a></li>
+                        <li><a href="#">CAMPERの声5</a></li>
+                        <li><a href="#">CAMPERの声6</a></li>
+                        <li><a href="#">CAMPERの声7</a></li>
+                        <li><a href="#">CAMPERの声8</a></li>
+                    </ul>
+                </div>
+
+                <div class="spot-menu">
+                    <a href="#spot"><h4>CAMP SPOT</h4></a>
+                    <ul>
+                        <li><a href="#">北海道</a></li>
+                        <li><a href="#">東北</a></li>
+                        <li><a href="#">関東</a></li>
+                        <li><a href="#">中部</a></li>
+                        <li><a href="#">近畿</a></li>
+                        <li><a href="#">中国</a></li>
+                        <li><a href="#">四国</a></li>
+                        <li><a href="#">九州</a></li>
+                    </ul>
+                </div>
+
+                <div class="baggage-menu">
+                    <a href="#baggage"><h4>CAMPに必要な物</h4></a>
+                    <ul>
+                        <li><a href="#">荷物1</a></li>
+                        <li><a href="#">荷物2</a></li>
+                        <li><a href="#">荷物3</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SNS -->
+            <div class="footer-sns">
+                <ul>
+                    <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                </ul>
+            </div>
+
+            <!-- Mail -->
+            <div class="footer-mail">
+                <p><a href="mailto:hogehoge@example.com">hogehoge@example.com</a></p>
+            </div>
+
+            <!-- copyright -->
+            <div class="copyright">
+                <p>copyright © 2021</p>
+            </div>
+        </div>
+
+        <!-- 背景 -->
+        <div class="footer-bkg">
+            <img src="images/footer-logo.png" alt="footer-logo">
+        </div>
+
+    </footer>
+
+</body>
+</html>
